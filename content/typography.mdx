@@ -1,6 +1,58 @@
 ---
 title: "Typography"
-description: "asdasd"
 ---
 
-Hello
+This section provides examples of all style elements available to documentation authors and the guidelines on using them.
+
+
+
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.youtube.com/embed/4KzFe50RQkQ"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
+
+## Mermaid Diagrams
+
+Input:
+
+````mdx Mermaid diagram example theme={null}
+```mermaid
+sequenceDiagram
+    Alice ->> Bob: Hello Bob, how are you?
+    Bob-->>John: How about you John?
+    Bob--x Alice: I am good thanks!
+    Bob-x John: I am good thanks!
+    Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+    Bob-->Alice: Checking with John...
+    Alice->John: Yes... John, how are you?
+```
+````
+
+Result:
+
+```mermaid
+sequenceDiagram
+    Alice ->> Bob: Hello Bob, how are you?
+    Bob-->>John: How about you John?
+    Bob--x Alice: I am good thanks!
+    Bob-x John: I am good thanks!
+    Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+    Bob-->Alice: Checking with John...
+    Alice->John: Yes... John, how are you?
+
+```
+
+See more examples [here](https://mermaid.js.org/syntax/examples.html).
+
+
+
+
+
+
+

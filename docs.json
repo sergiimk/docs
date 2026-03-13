@@ -41,14 +41,14 @@
             "pages": []
           },
           {
-            "group": "Glossary",
-            "pages": []
-          },
-          {
             "group": "Typography",
             "pages": [
               "content/typography"
             ]
+          },
+          {
+            "group": "Glossary",
+            "root": "content/glossary"
           }
         ]
       },
