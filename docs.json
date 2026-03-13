@@ -11,6 +11,48 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Kamu",
+        "groups": [
+          {
+            "group": "Open Data Fabric",
+            "icon": "play",
+            "expanded": false,
+            "pages": [
+              "content/odf/index"
+            ]
+          },
+          {
+            "group": "Kamu CLI",
+            "pages": [
+              {
+                "group": "Intro",
+                "pages": [
+                  "content/cli/index"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Kamu Node",
+            "pages": []
+          },
+          {
+            "group": "Kamu Web Platform",
+            "pages": []
+          },
+          {
+            "group": "Glossary",
+            "pages": []
+          },
+          {
+            "group": "Typography",
+            "pages": [
+              "content/typography"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Guides",
         "groups": [
           {
@@ -49,23 +91,7 @@
       },
       {
         "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
+        "openapi": "api-reference/openapi.json"
       }
     ],
     "global": {
